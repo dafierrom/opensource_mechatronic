@@ -1,0 +1,21 @@
+print("Aplicación para hallar perímetro, área y volumen")
+print("...............")
+print("...............")
+print("...............")
+print("...............")
+#Hallar perímetro, área y volumen
+print("Cuadrado")
+#Cuadrado posee un solo lado es decir solo se tomara como variable el lado 1
+l_cuadrado=int(input("Ingrese valor en (cm) de un lado del cuadrado \n"))
+print("...............")
+#Perímetro cuadrado
+p_cuadrado = l_cuadrado*4
+#Área cuadrado 
+a_cuadrado= l_cuadrado*l_cuadrado
+#Volumen cuadrado 
+v_cuadrado = l_cuadrado*3
+
+#Resultados a imprimir
+print("El perímetro del cuadrado es: ",p_cuadrado,"cm")
+print("El área del cuadrado es: ",a_cuadrado, "cm2")
+print("El volumen del cuadrado es: ",v_cuadrado,"cm3")
